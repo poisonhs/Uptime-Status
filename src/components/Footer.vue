@@ -73,22 +73,15 @@
             class="font-semibold hover:text-emerald-500 dark:hover:text-emerald-400 transition-colors"
           >Uptime-Status</a> Version {{ pkg.version }}
         </div>
+        
         <div>
-          基于 <a 
-            href="https://uptimerobot.com" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            class="font-semibold hover:text-emerald-500 dark:hover:text-emerald-400 transition-colors"
-          >UptimeRobot</a> 接口 | 检测频率 5 分钟
-        </div>
-        <div>
-          Copyright © 2020 - {{ new Date().getFullYear() }} <a 
+          Copyright © {{ new Date().getFullYear() }} <a 
             :href="pkg.url"
             target="_blank"
             rel="noopener noreferrer"
             class="font-semibold hover:text-emerald-500 dark:hover:text-emerald-400 transition-colors"
           >
-            JLinmr
+            暮云春树
           </a>
         </div>
       </div>
