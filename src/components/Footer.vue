@@ -65,14 +65,6 @@
         </a>
       </div>
       <div class="flex flex-col items-center gap-1">
-        <div>
-          <a 
-            :href="pkg.repositoryUrl" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            class="font-semibold hover:text-emerald-500 dark:hover:text-emerald-400 transition-colors"
-          >Uptime-Status</a> Version {{ pkg.version }}
-        </div>
         
         <div>
           Copyright © {{ new Date().getFullYear() }} <a 
